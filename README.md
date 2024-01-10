@@ -10,7 +10,6 @@ This project is interesting for us because we all have interest in video games a
  > The project will be put together in the programming language of C++ utilizing the strategy pattern.
  > The input for our projects will be user's decisions on what ability/move they want to utilize per turn while our output will be a text summary of what the aftermath of the user's input resulted in in addtion to boss's attack summary.
 
- ## Phase II
 ## Class Diagram
 ![Copy of project UML-2](https://cdn.discordapp.com/attachments/961506732679503932/982401685936812082/Copy_of_project_UML.jpeg)
 
@@ -59,7 +58,6 @@ Actions
 
 
 
- ## Phase III
  ## Design Pattern: 
 Strategy Pattern
 >We will use Strategy Pattern so we can have one main class where we call other functions to create the flow of the game. By utilizing Strategy Pattern, we are able to modify individuals functions (attack, heal, and blocking) to do different things when it's called by main.
@@ -71,9 +69,7 @@ Strategy Pattern
   ![p2](https://cdn.discordapp.com/attachments/961506732679503932/982116806875561994/2.JPG)
   ![p3](https://cdn.discordapp.com/attachments/961506732679503932/982116807156572170/3.JPG)
   ![p4](https://cdn.discordapp.com/attachments/961506732679503932/982116807450189824/4.JPG)
- ## Installation/Usage
-To run the game, clone the repository and compile with Cmake3 ., make, then ./CS100_PROJECT.
-To play the game, you'll first have to input a name and an appropriate age. Afterwards you choose moves to either attack, block, or heal to defeat 3 bosses. If you want to give up mid game, you can press 0 to give up.
+
 
  ## Testing
 Testing was done using the google test framework to establish proper functionality of the main classes and their interaction with eachother.  Continuous Integration was not used, as professor Reem indicated that it might not work properly given that this is a CS100 github associated with the school github.
